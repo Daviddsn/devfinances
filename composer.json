@@ -1,0 +1,28 @@
+{
+  "name": "vendor_name/daviddsn-devfinances",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "davi",
+      "email": "daviddsn100@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "7.4.*",
+    "ext-pdo": "7.4.*",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/router": "1.0.*",
+    "ext-intl": "*"
+  }
+}
