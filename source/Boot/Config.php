@@ -11,7 +11,7 @@ define("CONF_DB_PASS","");
  * PROJECT URLs
  */
 define("CONF_URL_TEST","https://www.localhost/devfinances/");
-define("CONF_URL_BASE","https://www.meudominio.com");
+define("CONF_URL_BASE","https://devfinaces-one.vercel.app/");
 define("CONF_URL_ERROR","/404");
 
 /*
